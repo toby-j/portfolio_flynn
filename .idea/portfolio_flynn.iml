@@ -12,5 +12,8 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="tailwindcss" level="application" />
+    <orderEntry type="library" name="jquery-3.6.3" level="application" />
+    <orderEntry type="library" name="@fancyapps/ui" level="application" />
+    <orderEntry type="library" name="alpinejs" level="application" />
   </component>
 </module>
