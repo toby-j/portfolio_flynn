@@ -32,7 +32,10 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
         <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
             <div class="mr-4 md:mr-8">
-                <a href="../../index.html" class="text-2xl  font-bold">Flynn Matthews</a>
+                <div class="flex items-center">
+                    <a href="../../index.html" class="text-2xl  font-bold">Flynn Matthews</a>
+                    <img alt="default" src="../../src/assets/content/man/flynn.png" class="h-32"/>
+                </div>
             </div>
             <div class="ml-auto md:hidden flex items-center justify-start">
                 <button onclick="menuToggle()" @click="open = !open"
@@ -83,13 +86,53 @@
     <h1 class="text-4xl pt-10 pb-8 font-bold">TRAILERS</h1>
     <section class="text-neutral-700">
         <div class="container w-full">
-            <div class="grid grid-cols-2 gap-8">
+            <div class="grid grid-cols-1 gap-8">
                 <div class="overflow-hidden h-full w-full">
-                    <a href="../assets/content/blocks/trailers/dir8.png"
-                       data-fancybox="gallery">
-                        <img alt="Flynn send me the youtube private urls right now"
-                             class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                             src="../assets/content/blocks/trailers/dir8.png" />
+                    <a href="https://youtu.be/1aw60O_DWk4"
+                       data-fancybox="iframe">
+                        <div class="group relative">
+                            <div class="block h-full w-full object-cover object-center animate-fade-in transition duration-500 transform scale-100 hover:scale-110">
+                                <img alt="default" src="../../src/assets/content/blocks/trailers/umsf.jpg" />
+                                <!-- Overlay with play button -->
+                                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                    <svg class="h-16 w-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="overflow-hidden h-full w-full">
+                    <a href="https://youtu.be/JMbS34Jq3Ic"
+                       data-fancybox="iframe">
+                        <div class="group relative">
+                            <div class="block h-full w-full object-cover object-center animate-fade-in transition duration-500 transform scale-100 hover:scale-110">
+                                <img alt="default" src="../../src/assets/content/blocks/trailers/mp.jpg" />
+                                <!-- Overlay with play button -->
+                                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                    <svg class="h-16 w-16 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="overflow-hidden h-full w-full">
+                    <a href="https://youtu.be/zUjOh1z0iP0"
+                       data-fancybox="iframe">
+                        <div class="group relative">
+                            <div class="block h-full w-full object-cover object-center animate-fade-in transition duration-500 transform scale-100 hover:scale-110">
+                                <img alt="default" src="../../src/assets/content/blocks/trailers/chc.jpg" />
+                                <!-- Overlay with play button -->
+                                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                    <svg class="h-16 w-16 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
